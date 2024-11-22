@@ -60,8 +60,11 @@ handleObject({
     price: 399
 })
 
-// const mynewArray = [200, 400, 100, 600];
+const mynewArray = [200, 400, 100, 600];
 
-// function returnSecondValue(getArray){
-//     ret
-// }
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+
+console.log(returnSecondValue(mynewArray));
+console.log(returnSecondValue([200, 400, 100, 600]));
